@@ -1,0 +1,12 @@
+.navbar-light {
+    background-color: #466B7B;
+    position: static;
+    display: grid;
+    height: 140px;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: x-large;
+}
