@@ -1,4 +1,8 @@
 import React from "react";
+import Services from "./services";
+import Blog from "./blog";
+import Testimonial from "./testimonials";
+import ContactUs from "./contact";
 
  export default function HomePage () {
      return (
@@ -16,22 +20,20 @@ import React from "react";
             </p>
 
          <hr/>
-         <h4>
-           **Show different services**
-                 *Use Flexbox*
-         </h4>
+        
+         <Services />
 
          <hr/>
-         <h2>Blog</h2>
-         <p>
-         Let's discuss health and wellness together
-         </p>
-         <hr/>
-            **Testimonial**
-               *bacground image*
+         
+         <Blog />
 
          <hr/>
-         **Contact**
+
+           <Testimonial />
+
+         <hr/>
+         
+         <ContactUs />
     </div>
         );
  }
