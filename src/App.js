@@ -5,7 +5,11 @@ import HomePage from "./home";
 
 function App() {
     return (
-        <div>
+    <div  class="bg_image"
+        style={{
+          backgroundImage: 'url("./img/ocean.webp")',
+          backgroundSize: "cover",
+    }}>
             <NavBar />
             <HomePage />
             <Footer />
