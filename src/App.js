@@ -1,5 +1,5 @@
 import "./App.css";
-import NavBar  from "./navbar.js";
+import NavBar  from "./naviBar.js";
 import Footer from "./footer";
 import HomePage from "./home";
 
