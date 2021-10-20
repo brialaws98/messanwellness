@@ -7,7 +7,11 @@ import "./App.css";
 
  export default function HomePage () {
      return (
-    <div>
+    <div class="bg_image"
+    style={{
+      backgroundImage: 'url("./img/ocean.webp")',
+      backgroundSize: "cover",
+}}>
       <div className="aboutMe">
            <h1 class="text-center">
             About Messan Wellness 
