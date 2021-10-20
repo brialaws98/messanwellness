@@ -1,17 +1,54 @@
 import "./App.css";
 import NavBar  from "./navBar.js";
+import * as ReactBootStrap from "react-bootstrap";
+ import HomePage from "./home";
+ import BlogPage from "./blogPage";
+ import ContactUs from "./contact";
+ import Services from "./services";
+ import Testimonial from "./testimonials";
+ import OurService from "./listServices";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
 import Footer from "./footer";
-import HomePage from "./home";
+
 
 function App() {
     return (
-    <div  class="bg_image"
-        style={{
-          backgroundImage: 'url("./img/ocean.webp")',
-          backgroundSize: "cover",
-    }}>
+    <div>
+        <Router>
             <NavBar />
-            <HomePage />
+
+            
+          <Switch>
+          <Route path="/home" component={HomePage}>
+            <HomePage /> 
+          </Route>
+
+          <Route path="/blog" component={BlogPage}>
+            <BlogPage /> 
+          </Route>
+
+          <Route path="/contact" component={ContactUs}>
+            <ContactUs /> 
+          </Route>
+
+          <Route path="/listservice" component={OurService}>
+            <OurService /> 
+          </Route>
+
+          <Route path="/services" component={Services}>
+            <Services /> 
+          </Route>
+
+          <Route path="/testimonials" component={Testimonial}>
+            <Testimonial /> 
+          </Route>
+          </Switch>
+        </Router>
+           
             <Footer />
         </div>
     );
