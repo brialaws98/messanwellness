@@ -16,7 +16,19 @@ import * as ReactBootStrap from "react-bootstrap";
               Home
             </ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="#link">
-              Link
+              About Us
+            </ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link href="#link">
+              Services
+            </ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link href="#link">
+              Book Online
+            </ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link href="#link">
+               Blog
+            </ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link href="#link">
+              Testimonials
             </ReactBootStrap.Nav.Link>
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
