@@ -1,35 +1,46 @@
 import React from "react";
 import "./Navbar.css";
 import * as ReactBootStrap from "react-bootstrap";
+import { Link } from "react-router-dom";
 
  export default function Navbar () {
      return (
      <ReactBootStrap.Navbar  className="color-nav" expand="lg">
-
-       <ReactBootStrap.Navbar.Brand href="#home">
+     <Link to="/home">
+     <ReactBootStrap.Navbar.Brand href="#home">
           <img src="./img/logo.webp" />
         </ReactBootStrap.Navbar.Brand>
+     </Link>
+       
        <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
        <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
           <ReactBootStrap.Nav className="me-auto">
-            <ReactBootStrap.Nav.Link href="#home">
-              Home
-            </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#link">
-              About Us
-            </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#link">
-              Services
-            </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#link">
+
+            <Link to="/home">
+              <ReactBootStrap.Nav.Link href="#home"> Home </ReactBootStrap.Nav.Link>
+            </Link>
+
+            <Link to="/services">
+            <ReactBootStrap.Nav.Link href="#services"> Services </ReactBootStrap.Nav.Link>
+            </Link>
+
+          <Link>
+           <ReactBootStrap.Nav.Link href="#link">
               Book Online
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#link">
-               Blog
-            </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#link">
+          </Link>
+           
+
+          <Link to="blog">
+            <ReactBootStrap.Nav.Link href="#blog"> Blog</ReactBootStrap.Nav.Link>
+          </Link>
+
+          <Link>
+          <ReactBootStrap.Nav.Link href="#link">
               Testimonials
             </ReactBootStrap.Nav.Link>
+          </Link>
+            
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
     </ReactBootStrap.Navbar>
