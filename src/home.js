@@ -7,17 +7,17 @@ import "./App.css";
 
  export default function HomePage () {
      return (
-    <div class="bg_image"
+    <div className="bg_image"
     style={{
       backgroundImage: 'url("./img/ocean.webp")',
       backgroundSize: "cover",
 }}>
-      <div className="aboutMe">
-           <h1 class="text-center">
+      <div classNameName="aboutMe">
+           <h1 className="text-center">
             About Messan Wellness 
-            <hr class="topline" width="42px" /> 
+            <hr className="topline" width="42px" /> 
         </h1>
-            <p class="text-center">
+            <p className="text-center">
             Healing, Evolution, and Transformation is nurtured at 
             Mesan Wellness. Established in 2018 by Morine Aneesah Lewis. 
             Our Wellness Services support the overall well-being of the 
