@@ -1,18 +1,28 @@
 import React from "react";
+import "./contact.css";
 
  export default function ContactUs () {
      return (
     <div className="contactMe">
-     <div>
-              <h2>Contact Us</h2>
-         <br/>
-         <p><strong>Location: 516 N Rolling Road Ste 305Catonsville,
+      <div className="row">
+          <div>
+            <div id="contactUs">
+         <h2>Contact Us</h2>   
+       </div>   
+            <p><strong>Location: 516 N Rolling Road Ste 305Catonsville,
                Maryland
                <br />
                Ph: (443) 297-9731
 
-         </strong></p>
-     </div>
+         </strong></p>  
+         </div>
+           
+      </div> 
+       
+          
+        
+       
+              
      <div>
           <form>
                <label>
@@ -31,7 +41,9 @@ import React from "react";
                     <input
                        type="text"
                        placeholder="type your message here..."
-                       width="20px"
+                       maxlength="200"
+                       size="65"
+                      
                     />
                
                </label>
