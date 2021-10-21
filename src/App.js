@@ -39,12 +39,16 @@ function App() {
             <OurService /> 
           </Route>
 
-          <Route path="/services" component={Services}>
+          <Route path="#" component={Services}>
             <Services /> 
           </Route>
 
           <Route path="/testimonials" component={Testimonial}>
             <Testimonial /> 
+          </Route>
+
+          <Route path="/services" component={OurService}>
+            <OurService /> 
           </Route>
 
           </Switch>
