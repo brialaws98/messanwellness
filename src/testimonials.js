@@ -11,8 +11,11 @@ import "./testimonials.css";
            height: "628px"
 
      }}>
-             **Testimonial page 
-             *has background image
+         <div id="testimonials">
+            **Testimonial page 
+             *has background image  
+         </div>
+            
          </div>
      );
  }
