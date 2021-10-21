@@ -2,10 +2,19 @@
     background-color: #466B7B;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.link-text {
     color: white;
-    font-size: x-large;
 }
+
+.me-auto, .navbar-nav a{
+    text-decoration: none; 
+    font-size: medium;
+}
+
+.me-auto, .navbar-nav :hover {
+   color: rgb(210,172,247);
+}
+
 
 .foot{
     background-color: black;
