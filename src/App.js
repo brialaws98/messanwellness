@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar  from "./navBar.js";
-import * as ReactBootStrap from "react-bootstrap";
+
  import HomePage from "./home";
  import BlogPage from "./blogPage";
  import ContactUs from "./contact";
