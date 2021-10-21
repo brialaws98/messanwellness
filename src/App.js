@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import NavBar  from "./navBar.js";
 
@@ -19,12 +20,12 @@ function App() {
     return (
     <div>
         <Router>
+          <div>
             <NavBar />
 
             <Switch>
-          <Route path="/home" component={HomePage}>
-            <HomePage /> 
-          </Route>
+          <Route path="/home" component={HomePage} exact />
+  
 
           <Route path="/blog" component={BlogPage}>
             <BlogPage /> 
@@ -47,8 +48,9 @@ function App() {
           </Route>
 
           </Switch>
-          
+          </div>
         </Router>
+        
            
             <Footer />
         </div>
