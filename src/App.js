@@ -21,8 +21,7 @@ function App() {
         <Router>
             <NavBar />
 
-            
-          <Switch>
+            <Switch>
           <Route path="/home" component={HomePage}>
             <HomePage /> 
           </Route>
@@ -46,7 +45,9 @@ function App() {
           <Route path="/testimonials" component={Testimonial}>
             <Testimonial /> 
           </Route>
+
           </Switch>
+          
         </Router>
            
             <Footer />
