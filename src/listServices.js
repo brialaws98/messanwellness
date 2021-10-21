@@ -78,9 +78,52 @@ import React from "react";
         <button> Book Now </button>
     </div>
 </div>
-         
-        </div>
-      </div>  
+
+<div id="reiki">
+        <hr />
+    <div className="d-flex justify-content-around   ">
+        <img src="/img/reiki.webp" />
+        <h2> 30 Min Reiki Massage </h2>
+        <p>30 min <br /> $60</p>
+        <button> Book Now </button>
+    </div>
+        <hr />
+    <div className="d-flex justify-content-around   ">
+        <img src="/img/reiki(2).webp" />
+        <h2> 60 Min Reiki Massage </h2>
+        <p>1 hr <br /> $75</p>
+        <button> Book Now </button>
+  </div>
+</div>
+
+<div id="Hypnosis">
+        <hr />
+    <div className="d-flex justify-content-around   ">
+        <img src="/img/personal_development_hypnosis.webp" />
+        <h2> Personal Development Hypnosis </h2>
+        <p>1 hr <br /> $185</p>
+        <button> Book Now </button>
+    </div>
+        <hr />
+    <div className="d-flex justify-content-around   ">
+        <img src="/img/weight_loss_hypnosis.webp" />
+        <h2> Weight Loss Hypnosis </h2>
+        <p>1 hr <br /> $200</p>
+        <button> Book Now </button>
+  </div>
+  <hr />
+    <div className="d-flex justify-content-around   ">
+        <img src="/img/spiritual_life_coaching.webp" />
+        <h2> Spiritual Life Coaching </h2>
+        <p>1 hr <br /> $125</p>
+        <button> Book Now </button>
+  </div>
+</div>
+
+  </div>
+  
+    </div>
+ 
      );
 
  }
