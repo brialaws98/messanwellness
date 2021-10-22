@@ -24,7 +24,7 @@ function App() {
             <NavBar />
 
             <Switch>
-          <Route exact path="/" component={HomePage}/>
+          <Route exact path="/home" component={HomePage}/>
   
 
           <Route exact path="/blog" component={BlogPage} />
@@ -35,7 +35,8 @@ function App() {
 
           <Route exact path="#" component={Services} />
 
-          <Route exact path="/testimonials" component={Testimonial}/>
+
+          <Route  eaxct path="/testimonials" component={Testimonial}/>
 
           <Route exact path="/services" component={OurService} />
 
