@@ -42,6 +42,7 @@ import "./App.css";
          <hr/>
          
          <ContactUs />
+      
     </div>
         );
  }

@@ -3,7 +3,7 @@ import "./contact.css";
 
  export default function ContactUs () {
      return (
-    <div className="d-flex justify-content-around">
+    <div className="d-flex justify-content-evenly">
        <div id="contactUs">
          <h2>Contact Us</h2>
              
@@ -16,26 +16,40 @@ import "./contact.css";
        </div>  
        <br /> 
            
-               <div>
-               <form>
-               <label>
-                    <input
-                      type="text" 
-                      placeholder="Name"
-                    />
-                    <input
-                       type="text"
-                       placeholder="Email"
-                    />
-                    <input
-                       type="text"
-                       placeholder="subject"
-                    />
-                    <input
-                       type="text"
-                       placeholder="type your message here..."
-                        />
-                     </label>
+<div>
+   <form>
+     <div class="row g-2">
+       <div class="col-md">
+         <div class="form-floating">
+      <input 
+        type="email" 
+        class="form-control"  
+        placeholder="name@example.com" 
+        value="mdo@example.com" 
+      />
+      
+    </div>
+  </div>
+  <div class="col-md">
+    <div class="form-floating">
+    <input 
+        type="email" 
+        class="form-control"  
+        placeholder="name@example.com" 
+        value="mdo@example.com" 
+      />    
+      </div>
+  </div>
+  
+  </div>  
+                     
+   
+              <textarea 
+                      class="form-control" 
+                      placeholder="Leave a comment here" 
+                      id="floatingTextarea2" 
+                      heigh="100px">
+                    </textarea>
                   </form>
            
                </div> 
