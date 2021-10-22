@@ -24,32 +24,20 @@ function App() {
             <NavBar />
 
             <Switch>
-          <Route path="/home" component={HomePage} exact />
+          <Route exact path="/" component={HomePage}/>
   
 
-          <Route path="/blog" component={BlogPage}>
-            <BlogPage /> 
-          </Route>
+          <Route exact path="/blog" component={BlogPage} />
 
-          <Route path="/contact" component={ContactUs}>
-            <ContactUs /> 
-          </Route>
+          <Route exact path="/contact" component={ContactUs} />
 
-          <Route path="/listservice" component={OurService}>
-            <OurService /> 
-          </Route>
+          <Route exact path="/listservice" component={OurService} />
 
-          <Route path="#" component={Services}>
-            <Services /> 
-          </Route>
+          <Route exact path="#" component={Services} />
 
-          <Route path="/testimonials" component={Testimonial}>
-            <Testimonial /> 
-          </Route>
+          <Route exact path="/testimonials" component={Testimonial}/>
 
-          <Route path="/services" component={OurService}>
-            <OurService /> 
-          </Route>
+          <Route exact path="/services" component={OurService} />
 
           </Switch>
           </div>
