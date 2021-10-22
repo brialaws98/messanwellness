@@ -15,7 +15,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
         </ReactBootStrap.Navbar.Brand>
      </Link>
        
-       <ReactBootStrap.Navbar Toggle aria-controls="basic-navbar-nav" />
+       <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
        <ReactBootStrap.Navbar.Collapse className="basic-navbar-nav">
           <ReactBootStrap.Nav className="me-auto">
       
