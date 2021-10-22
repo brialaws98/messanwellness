@@ -3,14 +3,13 @@ import "./testimonials.css";
 
  export default function Testimonial () {
      return (
-         <div  class="bg_image"
+         <div  className="bg_image"
          style={{
            backgroundImage: 'url("./img/testimonial.webp")',
            backgroundSize:"cover",
-           width:"1349px",
-           height: "628px"
-
-     }}>
+           width:"1311px",
+           height: "528px"}}
+           >
          <div id="testimonials">
             **Testimonial page 
              *has background image  
