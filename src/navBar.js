@@ -16,7 +16,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
      </Link>
        
        <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
-       <ReactBootStrap.Navbar.Collapse className="basic-navbar-nav">
+       <ReactBootStrap.Navbar.Collapse className="text-center">
           <ReactBootStrap.Nav className="me-auto">
       
            <Link to="/home">
