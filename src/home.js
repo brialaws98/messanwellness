@@ -2,16 +2,17 @@ import React from "react";
 import Services from "./services";
 import Blog from "./blog";
 import Testimonial from "./testimonials";
-import ContactUs from "./contact";
 import "./App.css";
 
  export default function HomePage () {
      return (
-    <div className="bg_image"
+  <div className="bg_image"
     style={{
       backgroundImage: 'url("./img/ocean.webp")',
       backgroundSize: "cover",
 }}>
+  <div id="home">
+    
       <div classNameName="aboutMe">
            <h1 className="text-center">
             About Messan Wellness 
@@ -38,11 +39,9 @@ import "./App.css";
          <hr/>
 
            <Testimonial />
-
-         <hr/>
-         
-         <ContactUs />
       
     </div>
+  </div>
+    
         );
  }

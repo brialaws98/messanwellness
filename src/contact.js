@@ -3,7 +3,8 @@ import "./contact.css";
 
  export default function ContactUs () {
      return (
-    <div className="d-flex justify-content-evenly">
+<div id="contact">
+  <div className="d-flex justify-content-evenly">
        <div id="contactUs">
          <h2>Contact Us</h2>
              
@@ -54,6 +55,8 @@ import "./contact.css";
            
                </div> 
          </div>
+</div>
+    
 
          
     

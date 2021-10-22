@@ -61,13 +61,13 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
             </AnchorLink>
 
           
-          <AnchorLink href="#contactUs">
-            <ReactBootStrap.Nav.Link >
+          <Link to="contact">
+            <ReactBootStrap.Nav.Link href="#contact" >
             <a className="link-text">
               Contact 
             </a>
             </ReactBootStrap.Nav.Link>
-            </AnchorLink>
+            </Link>
 
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>

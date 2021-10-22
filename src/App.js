@@ -11,7 +11,8 @@ import NavBar  from "./navBar.js";
 import {
     BrowserRouter as Router,
     Switch,
-    Route
+    Route,
+    Redirect
 } from "react-router-dom";
 import Footer from "./footer";
 
@@ -20,16 +21,20 @@ function App() {
     return (
     <div>
         <Router>
-          <div>
+          
             <NavBar />
 
             <Switch>
-          <Route exact path="/home" component={HomePage}/>
+          <Route exact path="/home" component={HomePage}>
+            <HomePage />
+            <Redirect to="/home" />
+          </Route>
   
 
-          <Route exact path="/blog" component={BlogPage} />
+          <Route  path="/blog" component={BlogPage} />
 
-          <Route exact path="/contact" component={ContactUs} />
+          <Route  exact path="/contact" component={ContactUs}/>
+            
 
           <Route exact path="/listservice" component={OurService} />
 
@@ -41,9 +46,9 @@ function App() {
           <Route exact path="/services" component={OurService} />
 
           </Switch>
-          </div>
+          
         </Router>
-        
+        <br />
            
             <Footer />
         </div>
