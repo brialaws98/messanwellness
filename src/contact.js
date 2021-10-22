@@ -3,28 +3,21 @@ import "./contact.css";
 
  export default function ContactUs () {
      return (
-    <div className="contactMe">
-      <div className="row">
-          <div>
-            <div id="contactUs">
-         <h2>Contact Us</h2>   
-       </div>   
-            <p><strong>Location: 516 N Rolling Road Ste 305Catonsville,
-               Maryland
+    <div className="d-flex justify-content-around">
+       <div id="contactUs">
+         <h2>Contact Us</h2>
+             
+      <p><strong>Location: 516 N Rolling Road Ste 305 
+         <br /> Catonsville, Maryland
                <br />
                Ph: (443) 297-9731
-
-         </strong></p>  
-         </div>
+               </strong></p> 
+ 
+       </div>  
+       <br /> 
            
-      </div> 
-       
-          
-        
-       
-              
-     <div>
-          <form>
+               <div>
+               <form>
                <label>
                     <input
                       type="text" 
@@ -41,16 +34,27 @@ import "./contact.css";
                     <input
                        type="text"
                        placeholder="type your message here..."
-                       maxlength="200"
-                       size="65"
-                      
-                    />
-               
-               </label>
-          </form>
-     </div>
+                        />
+                     </label>
+                  </form>
+           
+               </div> 
+         </div>
+
+         
+    
+
+
+         
+           
+       
+          
+        
+       
+              
      
-    </div>
+     
+           
 
      );
 }
