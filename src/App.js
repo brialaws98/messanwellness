@@ -11,8 +11,7 @@ import NavBar  from "./navBar.js";
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Redirect
+    Route
 } from "react-router-dom";
 import Footer from "./footer";
 
